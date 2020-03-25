@@ -1,0 +1,18 @@
+{
+  "Comment": "optional comment about the changes in this change batch request",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "mycartnew.lab23.courseandlabs.com",
+        "Type": "CNAME",
+        "TTL": 1000,
+        "ResourceRecords": [
+          {
+            "Value": "a9ac65b926e8911ea8e560292150385d-428202140.us-west-2.elb.amazonaws.com"
+          }
+        ]
+      }
+    }
+  ]
+}
