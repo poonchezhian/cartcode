@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: myappfe
-        image: poonchezhian/cart-fe:2.0
+        image: poonchezhian/cart-fe:TAG
         imagePullPolicy: Always
         ports:
         - containerPort: 80
